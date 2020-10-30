@@ -1,7 +1,26 @@
 ## Description
 
-API Service written in Nest.js
-Docs: https://documenter.getpostman.com/view/434851/TVYJ6xAu
+API Service Template written in Nest.js
+
+## Features
+
+### Out of box API Endpoints
+
+    - Auth with JWT
+        - Login
+        - Register
+        - Forgot Password
+    - SMS with Twilio
+        - Send verification message
+        - Verify code
+    - Users
+        - Look up all users
+        - Find user by id
+        - Create user
+
+### Rate limiting to prevent DDos attacks
+
+### Password hashing and salting
 
 ## Installation
 
